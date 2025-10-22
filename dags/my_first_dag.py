@@ -23,7 +23,7 @@ with DAG(
     'my_first_dag',
     default_args=default_args,
     description='Mon premier DAG Airflow',
-    schedule_interval=timedelta(days=1),
+    schedule=timedelta(days=1),  # CHANGÉ: schedule au lieu de schedule_interval
     catchup=False,
     tags=['tutorial', 'example'],
 ) as dag:
