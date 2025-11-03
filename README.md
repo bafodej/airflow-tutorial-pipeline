@@ -62,4 +62,6 @@ Le DAG `process_employees` exécute les tâches suivantes en séquence :
 - **Vue calendrier** : Consultez l'historique des exécutions
 - **Logs** : Cliquez sur une tâche pour voir ses logs détaillés
 
+### Résultats
 
+Une fois le DAG terminé, consultez les données dans PostgreSQL
